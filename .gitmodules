@@ -1,0 +1,3 @@
+[submodule "git@github.com:SQLutions-FATEC/API-4-Semestre-Frontend.git"]
+	path = git@github.com:SQLutions-FATEC/API-4-Semestre-Frontend.git
+	url = git@github.com:SQLutions-FATEC/API-4-Semestre-Backend.git
