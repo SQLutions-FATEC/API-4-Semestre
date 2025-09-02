@@ -1,3 +1,7 @@
-[submodule "git@github.com:SQLutions-FATEC/API-4-Semestre-Frontend.git"]
-	path = git@github.com:SQLutions-FATEC/API-4-Semestre-Frontend.git
+[submodule "Frontend"]
+	path = Frontend
+	url = git@github.com:SQLutions-FATEC/API-4-Semestre-Frontend.git
+
+[submodule "Backend"]
+	path = Backend
 	url = git@github.com:SQLutions-FATEC/API-4-Semestre-Backend.git
