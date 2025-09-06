@@ -28,29 +28,33 @@ Ainda a definir
 
 ## 🎯 Backlogs & User Stories(?)
 
+### ✅ Requisitos Funcionais
+
+| ID     |  Funcionalidade  | Descrição                                                                         |
+|:------:|:----------------:|:---------------------------------------------------------------------------------:|
+|  RF-1  |    Prioridade    | Ainda a definir                                                                   |
+|  RF-2  |    Prioridade    | Ainda a definir                                                                   | 
+|  RF-3  |    Prioridade    | Ainda a definir                                                                   |  
+|  RF-4  |    Prioridade    | Ainda a definir                                                                   |  
+|  RF-5  |    Prioridade    | Ainda a definir                                                                   |  
+|  RF-6  |    Prioridade    | Ainda a definir                                                                   | 
+|  RF-7  |    Prioridade    | Ainda a definir                                                                   |  
+
+---
+
 ### Backlog do Produto
 
-#### ✅ Requisitos Funcionais
-
-| Código | Descrição                                                                         | Prioridade | Fator | Sprint |
-|:------:|-----------------------------------------------------------------------------------|:----------:|:-----:|:------:|
-|  RF-1  | Desenvolver uma interface de cadastro de empresas e profissionais, incluindo foto |  🔴 Alta   |   1   |   1    |
-|  RF-2  | Dashboard com lista de registros                                                  |  🔴 Alta   |   2   |   1    |
-|  RF-3  | Permitir a visualização e edição de registros de movimentação                     |  🔴 Alta   |   3   |   1    |
-|  RF-4  | Desenvolver filtragem por data, empresa e profissional                            |  🔴 Alta   |   4   |   2    |
-|  RF-5  | Dashboard com gráficos                                                            |  🔴 Alta   |   5   |   2    |
-|  RF-6  | Permitir a extração de relatórios                                                 |  🟡 Média  |   6   |   3    |
-|  RF-7  | API para consumo dos dados                                                        |  🟢 Baixa  |   7   |   2    |
-
-
-#### ✔️ Requisitos Não Funcionais
-
-| Código | Descrição                   |
-|:------:|-----------------------------|
-| RNF-1  | Front Minimalista           |
-| RNF-2  | Guia de instalação          |
-| RNF-3  | Documentação API            |
-| RNF-4  | Modelagem do Banco de Dados |
+|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
+|:-----:|:------------:|:-------------------------------------------------------------------------------------------:|:-------------:|:-------:|
+|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
+|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
+|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
+|   4   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
+|   5   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
+|   6   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
+|   7   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
+|   8   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
+|   9   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
 
 ---
 
@@ -60,45 +64,31 @@ Ainda a definir
 
 [Sprint planning](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/docs/main/docs#1%EF%B8%8F%E2%83%A3-sprint-1)
 
-| Épico |  ID  |  Sprint  | Descrição                                                                                    |
-|:-----:|:----:|:--------:|----------------------------------------------------------------------------------------------|
-|   1   | US-1 | Sprint 1 | Permitir que o usuário altere o horário de entrada de um funcionário para corrigir falhas.   |
-|   3   | US-3 | Sprint 1 | Possibilitar o cadastro, visualização e edição de funcionários com foto.                     |
-|   1   | US-4 | Sprint 1 | Implementar o cadastro, visualização e edição de empresas para associá-las aos funcionários. |
+|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
+|:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
+|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
+|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
+|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
 
 ### 2️⃣ Sprint 2
 
 [Sprint planning](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/main/docs#2%EF%B8%8F%E2%83%A3-sprint-2)
 
-| Épico |  ID  |  Sprint  | Descrição                                                                                  |
-|:-----:|:----:|:--------:|--------------------------------------------------------------------------------------------|
-|   2   | US-2 | Sprint 2 | Permitir exportar movimentações filtradas para planilhas .xlsx.                            |
-|   4   | US-6 | Sprint 2 | Adicionar filtros por funcionário, empresa, função e data aos registros de movimentações.  |
-|   5   | US-7 | Sprint 2 | Implementar visualização das funções já cadastradas no sistema.                            |
+|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
+|:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
+|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
+|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
+|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
 
 ### 3️⃣ Sprint 3
 
 [Sprint planning](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/main/docs#3%EF%B8%8F%E2%83%A3sprint-3)
 
-| Épico |  ID  |  Sprint  | Descrição                                                                                      |
-|:-----:|:----:|:--------:|------------------------------------------------------------------------------------------------|
-|   6   | US-5 | Sprint 3 | Permitir criar, visualizar e editar contratos dos funcionários com período de vigência.        |
-|   7   | US-8 | Sprint 3 | Implementar gráficos com base nas movimentações para análises gerenciais.                      |
-
----
-
-### User Stories
-
-| Épico |  ID  |  Sprint  | Descrição                                                                                    |
-|:-----:|:----:|:--------:|----------------------------------------------------------------------------------------------|
-|   1   | US-1 | Sprint 1 | Permitir que o usuário altere o horário de entrada de um funcionário para corrigir falhas.   |
-|   2   | US-2 | Sprint 2 | Permitir exportar movimentações filtradas para planilhas .xlsx.                              |
-|   3   | US-3 | Sprint 1 | Possibilitar o cadastro, visualização e edição de funcionários com foto.                     |
-|   1   | US-4 | Sprint 1 | Implementar o cadastro, visualização e edição de empresas para associá-las aos funcionários. |
-|   6   | US-5 | Sprint 3 | Permitir criar, visualizar e editar contratos dos funcionários com período de vigência.      |
-|   4   | US-6 | Sprint 2 | Adicionar filtros por funcionário, empresa, função e data aos registros de movimentações.    |
-|   5   | US-7 | Sprint 2 | Implementar visualização das funções já cadastradas no sistema.                              |
-|   7   | US-8 | Sprint 3 | Implementar gráficos com base nas movimentações para análises gerenciais.                    |
+|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
+|:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
+|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
+|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
+|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 
