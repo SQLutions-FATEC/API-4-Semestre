@@ -20,11 +20,11 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 
 ### 🏁 Entregas de Sprints
 
-| Sprint | Previsão    | Status       | Histórico               |
-|--------|-------------|--------------|-------------------------|
-| 01     | ??/??/2025  | Etapa atual  | Em andamento            |
-| 02     | ??/??/2025	 | Etapa futura |                         |
-| 03     | ??/??/2025	 | Etapa futura |                         |
+| Sprint | Previsão                 | Status       | Histórico               |
+|--------|--------------------------|--------------|-------------------------|
+| 01     | 08/09/2025 a 28/09/2025  | Etapa atual  | Em andamento            |
+| 02     | 06/10/2025 a 26/10/2025  | Etapa futura |                         |
+| 03     | 03/11/2025 a 23/11/2025  | Etapa futura |                         |
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 
