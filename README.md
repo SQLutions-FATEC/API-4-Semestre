@@ -14,7 +14,9 @@
 
 ## 📑 Sobre o Projeto
 
-Ainda a definir
+Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que consolida dados de tráfego em dashboards interativos, com filtros por região, atualização em tempo real e diferenciação de acessos entre cidadãos e gestores. A solução atribui níveis aos indicadores, gera mapas de calor, relatórios e dispara alertas automáticos para apoiar protocolos de ação em situações críticas.
+
+
 
 ### 🏁 Entregas de Sprints
 
