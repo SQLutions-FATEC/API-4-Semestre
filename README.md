@@ -30,15 +30,34 @@ Ainda a definir
 
 ### ✅ Requisitos Funcionais
 
-| ID     |  Funcionalidade  | Descrição                                                                         |
-|:------:|:----------------:|:---------------------------------------------------------------------------------:|
-|  RF-1  |    Prioridade    | Ainda a definir                                                                   |
-|  RF-2  |    Prioridade    | Ainda a definir                                                                   | 
-|  RF-3  |    Prioridade    | Ainda a definir                                                                   |  
-|  RF-4  |    Prioridade    | Ainda a definir                                                                   |  
-|  RF-5  |    Prioridade    | Ainda a definir                                                                   |  
-|  RF-6  |    Prioridade    | Ainda a definir                                                                   | 
-|  RF-7  |    Prioridade    | Ainda a definir                                                                   |  
+|   ID   |     Funcionalidade      | Descrição                                                                 | Prioridade |
+|:------:|:-----------------------:|---------------------------------------------------------------------------|:----------:|
+| RF-1   | Upload e Tratamento de Dados | Permitir o upload de arquivos `.csv` contendo dados de radares, validando, limpando e armazenando as informações no banco de dados. | Alta |
+| RF-2   | Visualização em Dashboards   | Exibir indicadores de mobilidade urbana (velocidade média, volume, variação) em gráficos e dashboards interativos. | Alta |
+| RF-3   | Filtros por Região           | Possibilitar filtragem dos dados por bairros/regiões da cidade para análise segmentada. | Média |
+| RF-4   | Mapas de Calor               | Apresentar mapas de calor representando a intensidade de tráfego por região. | Média |
+| RF-5   | Níveis de Monitoramento      | Calcular e exibir níveis de gravidade (ex.: tráfego nível 1 a 5) por região. | Alta |
+| RF-6   | Notificações para Gestores   | Disparar alertas automáticos quando os indicadores atingirem níveis críticos. | Alta |
+| RF-7   | Atualização Automática de Dados | Atualizar dashboards e mapas de forma periódica/automática sem recarregamento manual. | Média |
+| RF-8   | Perfis de Acesso             | Garantir diferenciação entre gestor e cidadão: gestores acessam dados sensíveis; cidadãos acessam informações públicas. | Alta |
+| RF-9   | Relatórios Exportáveis       | Gerar relatórios em PDF/Excel com os indicadores e gráficos para compartilhamento. | Baixa |
+
+
+---
+
+### 📖 User Stories
+
+| Épico |  ID   |  Sprint  | Descrição                                                                                      |
+|:-----:|:-----:|:--------:|------------------------------------------------------------------------------------------------|
+|   1   | US-1  | Sprint 1 | Permitir que o cidadão visualize indicadores de mobilidade urbana em gráficos e dashboards.    |
+|   1   | US-2  | Sprint 2 | Permitir que cidadão/gestor filtrem dados por região da cidade.                                |
+|   1   | US-3  | Sprint 3 | Permitir que cidadão/gestor visualizem mapas de calor com intensidade de tráfego.              |
+|   1   | US-4  | Sprint 2 | Permitir que o gestor consulte níveis dos indicadores (ex.: tráfego nível 3).                  |
+|   2   | US-5  | Sprint 3 | Permitir que o gestor receba notificações quando indicadores atingirem níveis críticos.        |
+|   3   | US-6  | Sprint 1 | Permitir que o gestor faça upload de arquivos .csv com dados de radares para alimentar o sistema.|
+|   3   | US-7  | Sprint 2 | Permitir que cidadão/gestor vejam dados atualizados automaticamente sem precisar recarregar.   |
+|   4   | US-8  | Sprint 1 | Implementar diferenciação de acessos: gestor visualiza dados sensíveis e cidadão apenas dados públicos.|
+|   5   | US-9  | Sprint 3 | Permitir que o gestor gere relatórios em PDF/Excel a partir dos dashboards.                    |
 
 ---
 
