@@ -62,8 +62,6 @@ Ainda a definir
 
 ### 1️⃣ Sprint 1
 
-[Sprint planning](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/docs/main/docs#1%EF%B8%8F%E2%83%A3-sprint-1)
-
 |  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
 |:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
 |   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
