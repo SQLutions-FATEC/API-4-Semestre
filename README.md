@@ -61,21 +61,19 @@ Ainda a definir
 
 ---
 
-### Backlog do Produto
+### 📌 Backlog do Produto
 
 | Rank | Prioridade | User Story                                                                                  | Story Points | Sprint   |
-|:----:|:----------:|:-------------------------------------------------------------------------------------------:|:------------:|:-------:|
+|:----:|:----------:|:---------------------------------------------------------------------------------------------|:------------:|:--------:|
 |  1   | 🔴 Alta    | Como gestor, quero fazer upload de arquivos `.csv` para alimentar o sistema com dados de radares. |     5        | Sprint 1 |
 |  2   | 🔴 Alta    | Como cidadão, quero visualizar indicadores de mobilidade urbana em gráficos e dashboards.   |     8        | Sprint 1 |
 |  3   | 🔴 Alta    | Como gestor, quero acessar informações sensíveis e como cidadão quero ver apenas dados públicos (diferenciação de acessos). |     5        | Sprint 1 |
-|  4   | 🔴 Alta    | Como gestor, quero receber notificações quando indicadores atingirem níveis críticos.        |     8        | Sprint 2 |
+|  4   | 🔴 Alta    | Como cidadão/gestor, quero filtrar dados por região da cidade para análise segmentada.       |     5        | Sprint 2 |
 |  5   | 🔴 Alta    | Como gestor, quero consultar os níveis dos indicadores (ex.: tráfego em nível 3).            |     5        | Sprint 2 |
-|  6   | 🟡 Média   | Como cidadão/gestor, quero filtrar dados por região da cidade para análise segmentada.       |     5        | Sprint 2 |
+|  6   | 🟡 Média   | Como cidadão/gestor, quero ver os dados atualizados automaticamente sem precisar recarregar. |     8        | Sprint 2 |
 |  7   | 🟡 Média   | Como cidadão/gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas. |     13       | Sprint 3 |
-|  8   | 🟡 Média   | Como cidadão/gestor, quero ver os dados atualizados automaticamente sem precisar recarregar. |     8        | Sprint 3 |
+|  8   | 🔴 Alta    | Como gestor, quero receber notificações quando indicadores atingirem níveis críticos.        |     8        | Sprint 3 |
 |  9   | 🟢 Baixa   | Como gestor, quero gerar relatórios em PDF/Excel para compartilhar com outros stakeholders.  |     3        | Sprint 3 |
-
-
 
 ---
 
@@ -83,27 +81,31 @@ Ainda a definir
 
 ### 1️⃣ Sprint 1
 
-|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
-|:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
-|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
-|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
-|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
+| Rank | Prioridade | User Story                                                                                  | Story Points | Sprint   |
+|:----:|:----------:|:-------------------------------------------------------------------------------------------:|:------------:|:-------:|
+|  1   | 🔴 Alta    | Como gestor, quero fazer upload de arquivos `.csv` para alimentar o sistema com dados de radares. |      5       | Sprint 1 |
+|  2   | 🔴 Alta    | Como cidadão, quero visualizar indicadores de mobilidade urbana em gráficos e dashboards.   |      8       | Sprint 1 |
+|  3   | 🔴 Alta    | Como gestor, quero acessar informações sensíveis e como cidadão quero ver apenas dados públicos (diferenciação de acessos). |      5       | Sprint 1 |
+
+---
 
 ### 2️⃣ Sprint 2
 
-|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
-|:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
-|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
-|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
-|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
+| Rank | Prioridade | User Story                                                                                     | Story Points | Sprint   |
+|:----:|:----------:|:----------------------------------------------------------------------------------------------:|:------------:|:-------:|
+|  1   | 🔴 Alta    | Como cidadão/gestor, quero filtrar dados por região da cidade para análise segmentada.          |      5       | Sprint 2 |
+|  2   | 🔴 Alta    | Como gestor, quero consultar os níveis dos indicadores (ex.: tráfego em nível 3).               |      5       | Sprint 2 |
+|  3   | 🟡 Média   | Como cidadão/gestor, quero ver os dados atualizados automaticamente sem precisar recarregar.    |      8       | Sprint 2 |
+
+---
 
 ### 3️⃣ Sprint 3
 
-|  Rank |  Prioridade  | User Story                                                                                  | Story Points  |  Sprint |
-|:-----:|:------------:|:-------------------------------------------------------------------------------------------:| :-----------: | :------:|
-|   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
-|   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
-|   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
+| Rank | Prioridade | User Story                                                                                       | Story Points | Sprint   |
+|:----:|:----------:|:------------------------------------------------------------------------------------------------:|:------------:|:-------:|
+|  1   | 🔴 Alta   | Como gestor, quero receber notificações quando indicadores atingirem níveis críticos.    |     8       | Sprint 3 |
+|  2   | 🟡 Média    | Como cidadão/gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas.             |      13       | Sprint 3 |
+|  3   | 🟢 Baixa   | Como gestor, quero gerar relatórios em PDF/Excel para compartilhar com outros stakeholders.       |      3       | Sprint 3 |
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 
