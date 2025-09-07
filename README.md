@@ -20,9 +20,9 @@ Ainda a definir
 
 | Sprint | Previsão    | Status       | Histórico               |
 |--------|-------------|--------------|-------------------------|
-| 01     | ??/??/2025  | Etapa atual  | [Concluída](#sprint-1)  |
-| 02     | ??/??/2025	 | Etapa futura | [Concluída](#sprint-2)  |
-| 03     | ??/??/2025	 | Etapa futura | [Concluída](#sprint-3)  |
+| 01     | ??/??/2025  | Etapa atual  | Em andamento            |
+| 02     | ??/??/2025	 | Etapa futura |                         |
+| 03     | ??/??/2025	 | Etapa futura |                         |
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 
@@ -89,18 +89,6 @@ Ainda a definir
 |   1   |  🔴 Alta     | Ainda a definir                                                                             |      ?        |    ?    |
 |   2   |  🟡 Média    | Ainda a definir                                                                             |      ?        |    ?    |
 |   3   |  🟢 Baixa    | Ainda a definir                                                                             |      ?        |    ?    |
-
-[→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
-
-## 🖥️ Documentação(?)
-
-Como planejamento foi feito wireframe para validação do fluxo com o cliente, assim como fluxograma e a modelagem de banco de dados que estão acessíveis [na documentação](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/main/docs)
-
-> 🔗 **Links da documentação**<br>
->
-> - Início: [API - Checkpoint](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/main/docs)
-> - Backlog: [Informações](#-backlogs--user-stories)
-> - Modelagem do Banco de Dados: [Link](https://github.com/SQLutions-FATEC/API-3-Semestre/tree/main/docs#1%EF%B8%8F%E2%83%A3-sprint-1)
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 
