@@ -49,17 +49,20 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 
 ### 📖 User Stories
 
-| Épico |  ID   |  Sprint  | Descrição                                                                                      |
-|:-----:|:-----:|:--------:|------------------------------------------------------------------------------------------------|
-|   1   | US-1  | Sprint 1 | Permitir que o cidadão visualize indicadores de mobilidade urbana em gráficos e dashboards.    |
-|   1   | US-2  | Sprint 2 | Permitir que cidadão/gestor filtrem dados por região da cidade.                                |
-|   1   | US-3  | Sprint 3 | Permitir que cidadão/gestor visualizem mapas de calor com intensidade de tráfego.              |
-|   1   | US-4  | Sprint 2 | Permitir que o gestor consulte níveis dos indicadores (ex.: tráfego nível 3).                  |
-|   2   | US-5  | Sprint 3 | Permitir que o gestor receba notificações quando indicadores atingirem níveis críticos.        |
-|   3   | US-6  | Sprint 1 | Permitir que o gestor faça upload de arquivos .csv com dados de radares para alimentar o sistema.|
-|   3   | US-7  | Sprint 2 | Permitir que cidadão/gestor vejam dados atualizados automaticamente sem precisar recarregar.   |
-|   4   | US-8  | Sprint 1 | Implementar diferenciação de acessos: gestor visualiza dados sensíveis e cidadão apenas dados públicos.|
-|   5   | US-9  | Sprint 3 | Permitir que o gestor gere relatórios em PDF/Excel a partir dos dashboards.                    |
+| Épico |   ID   |  Sprint  | Descrição                                                                                          |
+|:-----:|:------:|:--------:|----------------------------------------------------------------------------------------------------|
+|   1   | US-1A  | Sprint 1 | Como **cidadão**, quero visualizar os **níveis dos indicadores de mobilidade urbana** (ex.: Tráfego 3), para entender rapidamente a situação da cidade. |
+|   1   | US-1B  | Sprint 1 | Como **gestor**, quero visualizar **gráficos e dashboards detalhados dos indicadores de mobilidade**, para acompanhar tendências e tomar decisões informadas. |
+|   1   | US-2   | Sprint 1 | Como **cidadão ou gestor**, quero **filtrar dados por região da cidade**, para acessar informações mais relevantes ao meu contexto. |
+|   1   | US-3   | Sprint 3 | Como **cidadão ou gestor**, quero visualizar **mapas de calor com intensidade de tráfego**, para compreender a distribuição geográfica do problema. |
+|   1   | US-4   | Sprint 2 | Como **gestor**, quero **consultar os níveis de indicadores críticos (ex.: tráfego nível 3)**, para agir rapidamente em situações de risco. |
+|   2   | US-5   | Sprint 3 | Como **gestor**, quero **receber notificações quando indicadores atingirem níveis críticos**, para ser alertado em tempo real. |
+|   3   | US-6   | Sprint 1 | Como **administrador**, quero **registrar dados de radares no banco de dados a partir de arquivos .csv**, para garantir que o sistema esteja atualizado. |
+|   3   | US-7   | Sprint 2 | Como **cidadão ou gestor**, quero que os **dados sejam atualizados automaticamente sem precisar recarregar a página**, para ter informações sempre atualizadas. |
+|   4   | US-8A  | Sprint 2 | Como **gestor**, quero acessar **dados sensíveis**, para apoiar a tomada de decisão. |
+|   4   | US-8B  | Sprint 2 | Como **cidadão**, quero acessar apenas **dados públicos**, para me manter informado sem expor informações restritas. |
+|   4   | US-8C  | Sprint 2 | Como **administrador**, quero **criar e gerenciar contas de gestores**, para controlar o acesso a dados sensíveis. |
+|   5   | US-9   | Sprint 3 | Como **gestor**, quero **gerar relatórios em PDF/Excel a partir dos dashboards**, para compartilhar informações com outros órgãos ou equipes. |
 
 ---
 
