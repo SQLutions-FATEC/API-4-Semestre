@@ -190,3 +190,24 @@
 - Histórico de alertas acessível pelo usuário.  
 
 ---
+
+### 📂 US-5: Como administrador, quero registrar dados de radares no banco de dados a partir de arquivos .csv, para garantir que o sistema esteja atualizado.  
+
+### 🆗 Definition of Ready (DoR)  
+- Arquivos .csv de exemplo disponíveis;  
+- Estrutura dos dados documentada;  
+- Local de armazenamento definido (banco de dados, schema, etc.);  
+- Critérios de aceitação revisados;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O administrador pode importar arquivos .csv com dados de radar;  
+- Dados inválidos geram mensagem de erro clara;  
+- Dados válidos são persistidos no banco.  
+
+---
