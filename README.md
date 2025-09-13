@@ -74,11 +74,11 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 |  3   | 🔴 Alta    | Como **gestor**, quero visualizar gráficos e dashboards detalhados dos indicadores de mobilidade, para tomar decisões informadas. |     8        | Sprint 1 |
 |  4   | 🔴 Alta    | Como **gestor**, quero acessar informações sensíveis, e como **cidadão**, quero ver apenas dados públicos (diferenciação de acessos). |     5        | Sprint 1 |
 |  5   | 🔴 Alta    | Como **cidadão ou gestor**, quero filtrar dados por região da cidade, para análise segmentada.                              |     5        | Sprint 2 |
-|  6   | 🟡 Média   | Como **cidadão ou gestor**, quero ver os dados atualizados automaticamente sem precisar recarregar, para ter informações sempre recentes. |     8        | Sprint 2 |
-|  7   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.            |     13       | Sprint 3 |
-|  8   | 🔴 Alta    | Como **gestor**, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  |     8        | Sprint 3 |
-|  9   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |     3        | Sprint 3 |
-| 10   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.               |     5        | Sprint 2 |
+|  6   | 🔴 Alta    | Como **gestor**, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  |     8        | Sprint 3 |
+|  7   | 🟡 Média   | Como **cidadão ou gestor**, quero ver os dados atualizados automaticamente sem precisar recarregar, para ter informações sempre recentes. |     8        | Sprint 2 |
+|  8   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.            |     13       | Sprint 3 |
+|  9   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.               |     5        | Sprint 2 |
+| 10   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |     3        | Sprint 3 |
 
 
 ---
