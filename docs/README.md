@@ -126,3 +126,23 @@
 
 ---
 
+### 👤 US-7C: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.  
+
+### 🆗 Definition of Ready (DoR)  
+- Perfis e permissões mapeados;  
+- Fluxo de criação/edição/remoção de contas documentado;  
+- Critérios de aceitação descritos;  
+- Estimativa registrada.  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O administrador pode criar, editar e remover contas de gestores;  
+- Apenas contas válidas conseguem acessar dados sensíveis;  
+- Usuários inativos não têm acesso.  
+
+---
