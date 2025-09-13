@@ -146,3 +146,26 @@
 - Usuários inativos não têm acesso.  
 
 ---
+
+# 3️⃣ Sprint 3  
+
+### 🗺️ US-3: Como cidadão ou gestor, quero visualizar mapas de calor com intensidade de tráfego, para compreender a distribuição geográfica do problema.  
+
+### 🆗 Definition of Ready (DoR)  
+- Acesso dos Dados georreferenciados confirmada;  
+- Ferramenta ou biblioteca de mapa definida (ex.: Leaflet, Mapbox, etc.);  
+- Mockup ou protótipo disponível;  
+- Critérios de aceitação descritos;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O usuário pode visualizar mapa com intensidade de tráfego;  
+- Cores representam diferentes níveis de tráfego;  
+- O mapa responde ao filtro de região (US-2).  
+
+---
