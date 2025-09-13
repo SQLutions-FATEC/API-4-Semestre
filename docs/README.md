@@ -62,3 +62,26 @@
 - O sistema deve manter a consistência dos indicadores após o filtro.  
 
 ---
+
+# 2️⃣ Sprint 2  
+
+### 🔄 US-6: Como cidadão ou gestor, quero que os dados sejam atualizados automaticamente sem precisar recarregar a página, para ter informações sempre atualizadas.  
+
+### 🆗 Definition of Ready (DoR)  
+- Frequência de atualização definida (ex.: a cada X segundos);  
+- Endpoints/APIs confirmados;  
+- Critérios de aceitação validados;  
+- Tasks de backend e frontend criadas;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- Dados atualizados em tempo real ou com intervalo definido;  
+- O usuário não precisa atualizar a página manualmente;  
+- Indicadores e gráficos refletem o novo estado automaticamente.  
+
+---
