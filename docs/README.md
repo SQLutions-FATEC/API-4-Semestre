@@ -105,3 +105,24 @@
 - Log de acesso gerado para auditoria.  
 
 ---
+
+### 🔓 US-7B: Como cidadão, quero acessar apenas dados públicos, para me manter informado sem expor informações restritas.  
+
+### 🆗 Definition of Ready (DoR)  
+- Conjunto de dados públicos definido;  
+- Perfis de acesso revisados;  
+- Critérios de aceitação descritos;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O cidadão só acessa dados públicos;  
+- Dados sensíveis nunca aparecem para esse perfil;  
+- O sistema diferencia corretamente perfis público/gestor.  
+
+---
+
