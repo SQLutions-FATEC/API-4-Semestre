@@ -85,3 +85,23 @@
 - Indicadores e gráficos refletem o novo estado automaticamente.  
 
 ---
+
+### 🔐 US-7A: Como gestor, quero acessar dados sensíveis, para apoiar a tomada de decisão.  
+
+### 🆗 Definition of Ready (DoR)  
+- Perfis de usuário definidos (gestor vs cidadão);  
+- Dados sensíveis identificados e documentados;  
+- Critérios de permissão revisados pelo time;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- Apenas gestores autenticados podem visualizar dados sensíveis;  
+- Tentativa de acesso por outro perfil é bloqueada;  
+- Log de acesso gerado para auditoria.  
+
+---
