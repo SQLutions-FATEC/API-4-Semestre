@@ -169,3 +169,24 @@
 - O mapa responde ao filtro de região (US-2).  
 
 ---
+
+### 📢 US-4: Como gestor, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  
+
+### 🆗 Definition of Ready (DoR)  
+- Regras de alerta documentadas (ex.: nível X dispara notificação);  
+- Canal de notificação definido (push, e-mail, etc.);  
+- Mensagens padronizadas disponíveis;  
+- Critérios de aceitação revisados;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O gestor recebe notificação em tempo real ao atingir nível crítico;  
+- Notificação contém título, descrição e nível do alerta;  
+- Histórico de alertas acessível pelo usuário.  
+
+---
