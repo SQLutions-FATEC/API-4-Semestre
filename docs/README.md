@@ -211,3 +211,21 @@
 - Dados válidos são persistidos no banco.  
 
 ---
+
+### 📈 US-8: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com outros órgãos ou equipes.  
+
+### 🆗 Definition of Ready (DoR)  
+- Layout/modelo dos relatórios definido;  
+- Formatos de exportação confirmados (PDF, Excel);  
+- Critérios de aceitação descritos;  
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O gestor pode exportar relatórios em PDF e Excel;  
+- Relatório contém os mesmos dados exibidos nos dashboards;  
+- O arquivo é gerado com formatação adequada para leitura.  
