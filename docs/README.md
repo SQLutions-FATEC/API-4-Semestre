@@ -41,3 +41,24 @@
 - Permite comparação entre períodos.  
 
 ---
+
+### 🌍 US-2: Como cidadão ou gestor, quero filtrar dados por região da cidade, para acessar informações mais relevantes ao meu contexto.  
+
+### 🆗 Definition of Ready (DoR)  
+- Regiões da cidade mapeadas e documentadas;  
+- Acesso dos dados disponível com campo de localização;  
+- Critérios de aceitação descritos;  
+
+
+### 🏁 **Definition of Done (DoD)**  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira.  
+
+### 🎯 **Critérios de aceitação**  
+- O usuário pode aplicar filtro por região da cidade;  
+- Ao aplicar o filtro, apenas dados daquela região aparecem;  
+- O sistema deve manter a consistência dos indicadores após o filtro.  
+
+---
