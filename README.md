@@ -80,6 +80,15 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 |  3   | 🔴 Alta    | Como **gestor**, quero visualizar gráficos e dashboards detalhados dos indicadores de mobilidade, para tomar decisões informadas. |      8       | Sprint 1 |
 |  4   | 🔴 Alta    | Como **gestor**, quero acessar informações sensíveis, e como **cidadão**, quero ver apenas dados públicos (diferenciação de acessos). |      5       | Sprint 1 |
 
+## 🎯 Metas da Sprint
+
+| Meta | Descrição |
+|------|------------|
+| 📊 Gráficos simples | Implementar gráficos básicos para visualização inicial dos indicadores. |
+| 📂 Registro/Leitura dos dados .csv | Permitir importar arquivos .csv e salvar/ler os dados no banco de dados. |
+| 🖥️ Páginas do front-end | Criar telas do front-end utilizando dados mockados para validar o fluxo do usuário. |
+
+
 ---
 
 ### 2️⃣ Sprint 2
