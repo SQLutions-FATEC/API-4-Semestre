@@ -9,6 +9,11 @@ TYPE tipo_veiculo AS ENUM (
     'Indefinido'
 );
 
+TYPE nivel_usuario AS ENUM (
+    'Admin',
+    'Gestor',
+);
+
 -- Endereço
 TABLE endereco (
     id SERIAL PRIMARY KEY,
@@ -42,6 +47,7 @@ TABLE leitura (
 TABLE usuario (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
+    nivel nivel_usuario NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(100) NOT NULL
 );
