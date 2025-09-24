@@ -51,3 +51,10 @@ TABLE usuario (
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(100) NOT NULL
 );
+
+TABLE indices (
+    id SERIAL PRIMARY KEY,
+    nome_indice VARCHAR(100) NOT NULL,
+    dia DATE NOT NULL,
+    valor_indice DECIMAL(10,2) NOT NULL
+)
