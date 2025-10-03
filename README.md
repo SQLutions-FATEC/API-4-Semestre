@@ -34,7 +34,7 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 
 |   ID   |     Funcionalidade      | Descrição                                                                 | Prioridade |
 |:------:|:-----------------------:|---------------------------------------------------------------------------|:----------:|
-| RF-1   | Upload e Tratamento de Dados | Permitir o upload de arquivos `.csv` contendo dados de radares, validando, limpando e armazenando as informações no banco de dados. | Alta |
+| RF-1   | Leitura e Tratamento de Dados | Permitir o usuário possa acessar os níveis gerados a partir dos dados de radares que estarão armazenados no banco de dados em cloud | Alta |
 | RF-2   | Visualização em Dashboards   | Exibir indicadores de mobilidade urbana (velocidade média, volume, variação) em gráficos e dashboards interativos. | Alta |
 | RF-3   | Filtros por Região           | Possibilitar filtragem dos dados por bairros/regiões da cidade para análise segmentada. | Média |
 | RF-4   | Mapas de Calor               | Apresentar mapas de calor representando a intensidade de tráfego por região. | Média |
@@ -53,15 +53,15 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 
 | Rank | Prioridade | User Story                                                                                                                  | Story Points | Sprint   |
 |:----:|:----------:|:----------------------------------------------------------------------------------------------------------------------------|:------------:|:--------:|
-|  1   | 🔴 Alta    | Como **administrador**, quero registrar dados de radares no banco de dados a partir de arquivos `.csv`, para garantir que o sistema esteja atualizado. |     5        | Sprint 1 |
-|  2   | 🔴 Alta    | Como **cidadão ou gestor**, quero visualizar os níveis dos indicadores de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade. |     5        | Sprint 1 |
-|  3   | 🔴 Alta    | Como **gestor**, quero visualizar gráficos e dashboards detalhados dos indicadores de mobilidade, para tomar decisões informadas. |     8        | Sprint 1 |
+|  1   | 🔴 Alta    | Como **cidadão ou gestor**, quero visualizar os dados recebidos pelos radares processados como níveis, gráficos e dashboards. |     5        | Sprint 1 |
+|  2   | 🔴 Alta    | Como **cidadão ou gestor**, quero visualizar os níveis de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade. |     5        | Sprint 1 |
+|  3   | 🔴 Alta    | Como **gestor**, quero visualizar gráficos e dashboards detalhados dos níveis de mobilidade, para tomar decisões informadas. |     8        | Sprint 1 |
 |  4   | 🔴 Alta    | Como **gestor**, quero acessar informações sensíveis, e como **cidadão**, quero ver apenas dados públicos (diferenciação de acessos). |     5        | Sprint 1 |
 |  5   | 🔴 Alta    | Como **cidadão ou gestor**, quero filtrar dados por região da cidade, para análise segmentada.                              |     5        | Sprint 2 |
-|  6   | 🔴 Alta    | Como **gestor**, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  |     8        | Sprint 3 |
-|  7   | 🟡 Média   | Como **cidadão ou gestor**, quero ver os dados atualizados automaticamente sem precisar recarregar, para ter informações sempre recentes. |     8        | Sprint 2 |
+|  6   | 🔴 Alta    | Como **gestor**, quero receber notificações quando níveis atingirem críticos, para ser alertado em tempo real.  |     8        | Sprint 2 |
+|  7   | 🔴 Alta   | Como **gestor**, quero ver informações detalhadas sobre as leituras realizadas, como porcentagem de veículos por região, número de veículos por minuto, etc |     8        | Sprint 2 |
 |  8   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.            |     13       | Sprint 3 |
-|  9   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.               |     5        | Sprint 2 |
+|  9   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.               |     5        | Sprint 3 |
 | 10   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |     3        | Sprint 3 |
 
 
@@ -114,7 +114,7 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 
 | Rank | Prioridade | User Story                                                                                                     | Story Points | Sprint   |
 |:----:|:----------:|:--------------------------------------------------------------------------------------------------------------:|:------------:|:--------:|
-|  1   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis. |      5       | Sprint 2 |
+|  1   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis. |      5       | Sprint 3 |
 |  2   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego. |      13      | Sprint 3 |
 |  3   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |      3       | Sprint 3 |
 
