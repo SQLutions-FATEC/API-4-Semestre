@@ -47,23 +47,7 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 
 ---
 
-### 📖 User Stories
 
-| Épico |   ID   |  Sprint  | Descrição                                                                                                                                                       |
-|:-----:|:------:|:--------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   1   | US-1A  | Sprint 1 | Como **cidadão ou gestor**, quero visualizar os **níveis dos indicadores de mobilidade urbana** (ex.: Tráfego 3), para entender rapidamente a situação da cidade.         |
-|   1   | US-1B  | Sprint 1 | Como **gestor**, quero visualizar **gráficos e dashboards detalhados dos indicadores de mobilidade**, para acompanhar tendências e tomar decisões informadas.   |
-|   1   | US-2   | Sprint 1 | Como **cidadão ou gestor**, quero **filtrar dados por região da cidade**, para acessar informações mais relevantes ao meu contexto.                             |
-|   1   | US-3   | Sprint 3 | Como **cidadão ou gestor**, quero visualizar **mapas de calor com intensidade de tráfego**, para compreender a distribuição geográfica do problema.             |
-|   2   | US-4   | Sprint 3 | Como **gestor**, quero **receber notificações quando indicadores atingirem níveis críticos**, para ser alertado em tempo real.                                  |
-|   3   | US-5   | Sprint 1 | Como **administrador**, quero **registrar dados de radares no banco de dados a partir de arquivos .csv**, para garantir que o sistema esteja atualizado.        |
-|   3   | US-6   | Sprint 2 | Como **cidadão ou gestor**, quero que os **dados sejam atualizados automaticamente sem precisar recarregar a página**, para ter informações sempre atualizadas. |
-|   4   | US-7A  | Sprint 2 | Como **gestor**, quero acessar **dados sensíveis**, para apoiar a tomada de decisão.                                                                            |
-|   4   | US-7B  | Sprint 2 | Como **cidadão**, quero acessar apenas **dados públicos**, para me manter informado sem expor informações restritas.                                            |
-|   4   | US-7C  | Sprint 2 | Como **administrador**, quero **criar e gerenciar contas de gestores**, para controlar o acesso a dados sensíveis.                                              |
-|   5   | US-8   | Sprint 3 | Como **gestor**, quero **gerar relatórios em PDF/Excel a partir dos dashboards**, para compartilhar informações com outros órgãos ou equipes.                   |
-
----
 
 ### 📌 Backlog do Produto
 
@@ -74,11 +58,11 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 |  3   | 🔴 Alta    | Como **gestor**, quero visualizar gráficos e dashboards detalhados dos indicadores de mobilidade, para tomar decisões informadas. |     8        | Sprint 1 |
 |  4   | 🔴 Alta    | Como **gestor**, quero acessar informações sensíveis, e como **cidadão**, quero ver apenas dados públicos (diferenciação de acessos). |     5        | Sprint 1 |
 |  5   | 🔴 Alta    | Como **cidadão ou gestor**, quero filtrar dados por região da cidade, para análise segmentada.                              |     5        | Sprint 2 |
-|  6   | 🟡 Média   | Como **cidadão ou gestor**, quero ver os dados atualizados automaticamente sem precisar recarregar, para ter informações sempre recentes. |     8        | Sprint 2 |
-|  7   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.            |     13       | Sprint 3 |
-|  8   | 🔴 Alta    | Como **gestor**, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  |     8        | Sprint 3 |
-|  9   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |     3        | Sprint 3 |
-| 10   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.               |     5        | Sprint 2 |
+|  6   | 🔴 Alta    | Como **gestor**, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  |     8        | Sprint 3 |
+|  7   | 🟡 Média   | Como **cidadão ou gestor**, quero ver os dados atualizados automaticamente sem precisar recarregar, para ter informações sempre recentes. |     8        | Sprint 2 |
+|  8   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.            |     13       | Sprint 3 |
+|  9   | 🟡 Média   | Como **administrador**, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.               |     5        | Sprint 2 |
+| 10   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |     3        | Sprint 3 |
 
 
 ---
@@ -95,6 +79,15 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 |  2   | 🔴 Alta    | Como **cidadão ou gestor**, quero visualizar os níveis dos indicadores de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade. |      5       | Sprint 1 |
 |  3   | 🔴 Alta    | Como **gestor**, quero visualizar gráficos e dashboards detalhados dos indicadores de mobilidade, para tomar decisões informadas. |      8       | Sprint 1 |
 |  4   | 🔴 Alta    | Como **gestor**, quero acessar informações sensíveis, e como **cidadão**, quero ver apenas dados públicos (diferenciação de acessos). |      5       | Sprint 1 |
+
+## 🎯 Metas da Sprint
+
+| Meta | Descrição |
+|------|------------|
+| 📊 Gráficos simples | Implementar gráficos básicos para visualização inicial dos indicadores. |
+| 📂 Registro/Leitura dos dados .csv | Permitir importar arquivos .csv e salvar/ler os dados no banco de dados. |
+| 🖥️ Páginas do front-end | Criar telas do front-end utilizando dados mockados para validar o fluxo do usuário. |
+
 
 ---
 
@@ -160,7 +153,6 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias que foram usadas
 | ![enzo](https://github.com/user-attachments/assets/f228df2a-1bae-408d-9d39-d5808bea56bc)                 | Desenvolvedor  | Enzo Lemos Franco                  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-lemos-franco-002651293/)    [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EnzoLFranco)          |
 | ![bryan](https://github.com/user-attachments/assets/de3c76c1-183c-4e13-8856-7dd87834be2b)                | Desenvolvedor  | Bryan Matheus                      | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bryan-matheus-5aa0a3302)         [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BryanARMatheus)       |
 | ![daniel](https://github.com/user-attachments/assets/6cb4f0c1-0bef-43ff-8e57-e633f145dbdf)               | Desenvolvedor  | Daniel Sendreti Broder             | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielbroder)                    [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/d-broder)             |
-| ![henrique](https://github.com/user-attachments/assets/bdfbd3db-7116-4ea8-a9a6-0b155a91c70a)             | Desenvolvedor  | Henrique de Castro Silva           | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/henrique-castro-silva-6568a012b) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/quetebary)            |
 | ![gabriel vasconcelos](https://github.com/user-attachments/assets/0ac1090d-15b5-44a9-b68c-79e890a1783d)  | Desenvolvedor  | Gabriel Vasconcelos Ferreira       | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-vasconcelos-255979262)   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabrielvascf)         |
 | ![gabriel carvalho](https://github.com/user-attachments/assets/20a93e32-fdf9-4bbe-b798-08a1985c5db6)     | Desenvolvedor  | Gabriel Carvalho Silva             | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-carvalho-87569336a)      [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gabriecarvalho)       |
 | ![joão victor](https://github.com/user-attachments/assets/d50229ac-57a5-4355-88ba-68587f572b53)         | Desenvolvedor  | João Victor Silva do Nascimento    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-victor-silva-do-nascimento-382631383/)                                                                                                                                                              [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Joaovsnas)            |
