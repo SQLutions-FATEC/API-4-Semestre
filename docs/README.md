@@ -154,7 +154,7 @@
 
 # 3️⃣ Sprint 3  
 
-### 🗺️ US-8: Como cidadão ou gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.  
+### 🗺️ US-8: Como cidadão ou gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego de forma intuitiva e rápida, priorizando ações corretivas e otimizando recursos de mobilidade.
 
 ### 🆗 Definition of Ready (DoR)  
 - Dados georreferenciados confirmados e acessíveis;  
@@ -175,7 +175,7 @@
 
 ---
 
-### 👤 US-9: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.  
+### 👤 US-9: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis, garantindo segurança da informação e reduzindo riscos operacionais e de conformidade. 
 
 ### 🆗 Definition of Ready (DoR)  
 - Perfis e permissões mapeados;  
@@ -196,7 +196,7 @@
 
 ---
 
-### 📑 US-10: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders.  
+### 📑 US-10: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações atualizadas com stakeholders de forma prática e padronizada, economizando tempo na preparação de apresentações e comunicações.
 
 ### 🆗 Definition of Ready (DoR)  
 - Layout/modelo dos relatórios definido;  
