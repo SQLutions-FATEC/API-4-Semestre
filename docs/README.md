@@ -1,231 +1,217 @@
-# 1️⃣ Sprint 1
+# 1️⃣ Sprint 1  
 
-### 📝 US-1A: Como cidadão ou gestor, quero visualizar os níveis dos indicadores de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade.  
+### 📂 US-1: Como cidadão ou gestor, quero visualizar os dados recebidos pelos radares processados como níveis, gráficos e dashboards, para compreender rapidamente as informações de mobilidade urbana, reduzindo o tempo gasto na interpretação de dados brutos e otimizando a identificação de regiões mais críticas.
+
+### 🆗 Definition of Ready (DoR)  
+- Estrutura dos dados recebidos pelos radares documentada;  
+- Acesso ao banco de dados confirmado;  
+- Protótipo de tela disponível para visualização;  
+- Critérios de aceitação revisados pelo time;  
+
+### 🏁 Definition of Done (DoD)  
+- O código deve estar devidamente versionado no GitHub;  
+- Todas as PRs devem ser revisadas por outro membro do grupo;  
+- Frontend e backend se comunicando corretamente;  
+- O card deve ter requests ou responses documentadas no card do Jira;  
+
+### 🎯 Critérios de aceitação  
+- Dados processados são exibidos no sistema;  
+- Usuário pode visualizar dashboards simples;  
+- Indicadores básicos aparecem sempre atualizados;  
+
+---
+
+### 📝 US-2: Como cidadão ou gestor, quero visualizar os níveis de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade e planejar deslocamentos ou ações de gestão de forma mais eficiente, economizando tempo e recursos.  
 
 ### 🆗 Definition of Ready (DoR)  
 - Indicadores a serem exibidos documentados e validados pelo PO;  
-- Acesso dos Dados confirmado e acessível;  
-- Protótipo de tela de visualização prontos;  
+- Acesso dos dados confirmado e acessível;  
+- Protótipo de tela de visualização pronto;  
 - Critérios de aceitação revisados pelo time;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
-- O usuário consegue visualizar os níveis de mobilidade urbana em formato simples;  
+### 🎯 Critérios de aceitação  
+- O usuário consegue visualizar níveis de mobilidade urbana em formato simples;  
 - O indicador exibe sempre o valor atualizado da fonte dos dados;  
-- Os níveis são facilmente interpretáveis (ex.: cores ou ícones indicativos).  
+- Os níveis são facilmente interpretáveis (cores, ícones, etc.);  
 
 ---
 
-### 📊 US-1B: Como gestor, quero visualizar gráficos e dashboards detalhados dos indicadores de mobilidade, para acompanhar tendências e tomar decisões informadas.  
+### 📊 US-3: Como gestor, quero visualizar gráficos e dashboards detalhados dos níveis de mobilidade, para embasar decisões estratégicas com dados atualizados, reduzindo incertezas e melhorando a eficiência no planejamento urbano.  
 
 ### 🆗 Definition of Ready (DoR)  
 - Conjunto de indicadores selecionados e validados;  
-- Protótipo do dashboard disponíveis;  
+- Protótipo do dashboard disponível;  
 - Acesso dos dados confirmado e acessível;  
 - Critérios de aceitação descritos;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
+### 🎯 Critérios de aceitação  
 - O gestor pode visualizar gráficos detalhados (linha, barra, pizza, etc.);  
 - Dashboard atualizado automaticamente a partir da base de dados;  
-- Permite comparação entre períodos.  
+- Permite comparação entre períodos;  
 
 ---
 
-### 🌍 US-2: Como cidadão ou gestor, quero filtrar dados por região da cidade, para acessar informações mais relevantes ao meu contexto.  
+### 🔐 US-4: Como gestor, quero acessar informações sensíveis sobre o estado da região, e como cidadão, quero ver apenas dados relevantes sobre o transito atual, garantindo que o gestor consiga direcionar recursos para uma região crítica de maneira rápida, enquanto o cidadão vê dados que auxiliam na rota dos veículos economizando tempo e dinheiro com o transporte ao evitar regiões críticas.  
 
 ### 🆗 Definition of Ready (DoR)  
-- Regiões da cidade mapeadas e documentadas;  
-- Acesso dos dados disponível com campo de localização;  
-- Critérios de aceitação descritos;  
+- Perfis de usuário definidos (gestor vs cidadão);  
+- Dados sensíveis identificados e documentados;  
+- Conjunto de dados públicos definido;  
+- Critérios de permissão revisados pelo time;  
 
-
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
-- O usuário pode aplicar filtro por região da cidade;  
-- Ao aplicar o filtro, apenas dados daquela região aparecem;  
-- O sistema deve manter a consistência dos indicadores após o filtro.  
+### 🎯 Critérios de aceitação  
+- Apenas gestores autenticados podem visualizar dados sensíveis;  
+- O cidadão só acessa dados públicos;  
+- Tentativas de acesso indevido são bloqueadas;  
 
 ---
 
 # 2️⃣ Sprint 2  
 
-### 🔄 US-6: Como cidadão ou gestor, quero que os dados sejam atualizados automaticamente sem precisar recarregar a página, para ter informações sempre atualizadas.  
+### 🌍 US-5: Como cidadão ou gestor, quero filtrar dados por região da cidade, para análise segmentada, poupando tempo na consulta de informações e permitindo que cidadãos e gestores foquem apenas nas áreas mais relevantes, reduzindo também custos de análise manual.  
 
 ### 🆗 Definition of Ready (DoR)  
-- Frequência de atualização definida (ex.: a cada X segundos);  
-- Endpoints/APIs confirmados;  
-- Critérios de aceitação validados;  
-- Tasks de backend e frontend criadas;  
+- Regiões da cidade mapeadas e documentadas (bairros, ruas, zonas);  
+- Filtros definidos (nível de granularidade: bairro, zona, rua, etc.);  
+- Mock de dados disponível para o frontend;  
+- Critérios de aceitação revisados pelo time;  
+- Tasks de backend (API de filtragem) e frontend (UI do filtro) criadas;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
-- Dados atualizados em tempo real ou com intervalo definido;  
-- O usuário não precisa atualizar a página manualmente;  
-- Indicadores e gráficos refletem o novo estado automaticamente.  
+### 🎯 Critérios de aceitação  
+- O usuário pode aplicar filtro por bairro, rua ou zona;  
+- O dashboard atualiza automaticamente após aplicar o filtro;  
+- Apenas dados da região selecionada são exibidos;  
 
 ---
 
-### 🔐 US-7A: Como gestor, quero acessar dados sensíveis, para apoiar a tomada de decisão.  
+### 🔔 US-6: Como gestor, quero receber notificações quando níveis atingirem pontos críticos, para ser alertado em tempo real, economizando tempo de monitoramento contínuo e evitando custos maiores com atrasos na tomada de decisão em situações críticas.
 
 ### 🆗 Definition of Ready (DoR)  
-- Perfis de usuário definidos (gestor vs cidadão);  
-- Dados sensíveis identificados e documentados;  
-- Critérios de permissão revisados pelo time;  
+- Níveis críticos definidos e documentados;  
+- Canal de notificação escolhido (ex.: e-mail, WhatsApp, notificação interna);  
+- Critérios de disparo revisados e validados pelo time;  
+- Mock de notificações preparado;  
+- Estimativas registradas e tasks criadas;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
-- Apenas gestores autenticados podem visualizar dados sensíveis;  
-- Tentativa de acesso por outro perfil é bloqueada;  
-- Log de acesso gerado para auditoria.  
+### 🎯 Critérios de aceitação  
+- Alertas são enviados somente quando um nível atingir um ponto crítico;  
+- Logs de envio e resposta ficam registrados;  
+- O gestor recebe notificação pelo canal definido;  
 
 ---
 
-### 🔓 US-7B: Como cidadão, quero acessar apenas dados públicos, para me manter informado sem expor informações restritas.  
+### 📈 US-7: Como gestor, quero ver informações detalhadas sobre as leituras realizadas, como porcentagem de veículos por região, número de veículos por minuto, etc;  permitindo decisões mais assertivas, direcionando investimentos  regiões com maior tráfego.
 
 ### 🆗 Definition of Ready (DoR)  
-- Conjunto de dados públicos definido;  
-- Perfis de acesso revisados;  
-- Critérios de aceitação descritos;  
+- Métricas detalhadas definidas (veículos por minuto, % por região, etc.);  
+- Fonte de dados validada e acessível;  
+- Estrutura dos dashboards planejada;  
+- Critérios de aceitação revisados com o time;  
+- Mock de dados pronto para frontend;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
-- O cidadão só acessa dados públicos;  
-- Dados sensíveis nunca aparecem para esse perfil;  
-- O sistema diferencia corretamente perfis público/gestor.  
-
----
-
-### 👤 US-7C: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.  
-
-### 🆗 Definition of Ready (DoR)  
-- Perfis e permissões mapeados;  
-- Fluxo de criação/edição/remoção de contas documentado;  
-- Critérios de aceitação descritos;  
-- Estimativa registrada.  
-
-### 🏁 **Definition of Done (DoD)**  
-- O código deve estar devidamente versionado no GitHub;  
-- Todas as PRs devem ser revisadas por outro membro do grupo;  
-- Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
-
-### 🎯 **Critérios de aceitação**  
-- O administrador pode criar, editar e remover contas de gestores;  
-- Apenas contas válidas conseguem acessar dados sensíveis;  
-- Usuários inativos não têm acesso.  
+### 🎯 Critérios de aceitação  
+- Dashboard mostra número de veículos por minuto;  
+- Dashboard mostra porcentagem de veículos por região;  
+- As informações aparecem integradas aos gráficos e níveis já existentes;  
 
 ---
 
 # 3️⃣ Sprint 3  
 
-### 🗺️ US-3: Como cidadão ou gestor, quero visualizar mapas de calor com intensidade de tráfego, para compreender a distribuição geográfica do problema.  
+### 🗺️ US-8: Como cidadão ou gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego de forma intuitiva e rápida, priorizando ações corretivas e otimizando recursos de mobilidade.
 
 ### 🆗 Definition of Ready (DoR)  
-- Acesso dos Dados georreferenciados confirmada;  
-- Ferramenta ou biblioteca de mapa definida (ex.: Leaflet, Mapbox, etc.);  
-- Mockup ou protótipo disponível;  
-- Critérios de aceitação descritos;  
+- Dados georreferenciados confirmados e acessíveis;  
+- Ferramenta/biblioteca de mapa definida (Leaflet, Mapbox, etc.);  
+- Protótipo ou mockup disponível;  
+- Critérios de aceitação revisados;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
+### 🎯 Critérios de aceitação  
 - O usuário pode visualizar mapa com intensidade de tráfego;  
-- Cores representam diferentes níveis de tráfego;  
-- O mapa responde ao filtro de região (US-2).  
+- Diferentes níveis de tráfego representados por cores;  
+- O mapa responde ao filtro de região (US-5);  
 
 ---
 
-### 📢 US-4: Como gestor, quero receber notificações quando indicadores atingirem níveis críticos, para ser alertado em tempo real.  
+### 👤 US-9: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis, garantindo segurança da informação e reduzindo riscos operacionais e de conformidade. 
 
 ### 🆗 Definition of Ready (DoR)  
-- Regras de alerta documentadas (ex.: nível X dispara notificação);  
-- Canal de notificação definido (push, e-mail, etc.);  
-- Mensagens padronizadas disponíveis;  
-- Critérios de aceitação revisados;  
+- Perfis e permissões mapeados;  
+- Fluxo de criação/edição/remoção de contas documentado;  
+- Critérios de aceitação descritos;  
+- Estimativas registradas;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
-- O gestor recebe notificação em tempo real ao atingir nível crítico;  
-- Notificação contém título, descrição e nível do alerta;  
-- Histórico de alertas acessível pelo usuário.  
-
----
-
-### 📂 US-5: Como administrador, quero registrar dados de radares no banco de dados a partir de arquivos .csv, para garantir que o sistema esteja atualizado.  
-
-### 🆗 Definition of Ready (DoR)  
-- Arquivos .csv de exemplo disponíveis;  
-- Estrutura dos dados documentada;  
-- Local de armazenamento definido (banco de dados, schema, etc.);  
-- Critérios de aceitação revisados;  
-
-### 🏁 **Definition of Done (DoD)**  
-- O código deve estar devidamente versionado no GitHub;  
-- Todas as PRs devem ser revisadas por outro membro do grupo;  
-- Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
-
-### 🎯 **Critérios de aceitação**  
-- O administrador pode importar arquivos .csv com dados de radar;  
-- Dados inválidos geram mensagem de erro clara;  
-- Dados válidos são persistidos no banco.  
+### 🎯 Critérios de aceitação  
+- O administrador pode criar, editar e remover contas de gestores;  
+- Apenas contas válidas conseguem acessar dados sensíveis;  
+- Usuários inativos não têm acesso;  
 
 ---
 
-### 📈 US-8: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com outros órgãos ou equipes.  
+### 📑 US-10: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações atualizadas com stakeholders de forma prática e padronizada, economizando tempo na preparação de apresentações e comunicações.
 
 ### 🆗 Definition of Ready (DoR)  
 - Layout/modelo dos relatórios definido;  
 - Formatos de exportação confirmados (PDF, Excel);  
 - Critérios de aceitação descritos;  
 
-### 🏁 **Definition of Done (DoD)**  
+### 🏁 Definition of Done (DoD)  
 - O código deve estar devidamente versionado no GitHub;  
 - Todas as PRs devem ser revisadas por outro membro do grupo;  
 - Frontend e backend se comunicando corretamente;  
-- O card deve ter requests ou responses documentadas no card do Jira.  
+- O card deve ter requests ou responses documentadas no card do Jira;  
 
-### 🎯 **Critérios de aceitação**  
+### 🎯 Critérios de aceitação  
 - O gestor pode exportar relatórios em PDF e Excel;  
 - Relatório contém os mesmos dados exibidos nos dashboards;  
-- O arquivo é gerado com formatação adequada para leitura.  
+- O arquivo é gerado com formatação adequada para leitura;  
+
+---
