@@ -23,8 +23,8 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 | Sprint | Previsão                 | Status          | Histórico               |
 |--------|--------------------------|-----------------|-------------------------|
 | 01     | 08/09/2025 a 28/09/2025  | Etapa concluída | Concluída               |
-| 02     | 06/10/2025 a 26/10/2025  | Etapa atual     | Em andamento            |
-| 03     | 03/11/2025 a 23/11/2025  | Etapa futura    |                         |
+| 02     | 06/10/2025 a 26/10/2025  | Etapa concluída     | Concluída            |
+| 03     | 03/11/2025 a 23/11/2025  | Etapa atual  |    Em andamento                     |
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 
@@ -118,6 +118,13 @@ Painel de Mobilidade Urbana para a Prefeitura de São José dos Campos, que cons
 |  2   | 🟡 Média   | Como **cidadão ou gestor**, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego. |      13      | Sprint 3 |
 |  3   | 🟢 Baixa   | Como **gestor**, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders. |      3       | Sprint 3 |
 
+## 🎯 Metas da Sprint 3
+
+| Meta | Descrição |
+|------|------------|
+| 👤 Gestão de Contas de Gestores | Permitir que administradores criem, editem e removam contas de gestores, garantindo controle de acesso a dados sensíveis e segurança das informações. |
+| 🗺️ Mapas de Calor de Tráfego | Implementar visualizações de mapas de calor da cidade, destacando áreas críticas de tráfego, permitindo análise rápida e tomada de decisão eficiente por cidadãos e gestores. |
+| 📄 Exportação de Relatórios | Criar funcionalidade para gerar relatórios em PDF e Excel a partir dos dashboards, facilitando o compartilhamento de informações com stakeholders de forma organizada e prática. |
 
 [→ Voltar ao topo](#projeto-sistema-de-ponto-e-gera%C3%A7%C3%A3o-de-relat%C3%B3rios)
 

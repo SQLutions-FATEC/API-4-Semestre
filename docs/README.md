@@ -1,6 +1,6 @@
 # 1️⃣ Sprint 1  
 
-### 📂 US-1: Como cidadão ou gestor, quero visualizar os dados recebidos pelos radares processados como níveis, gráficos e dashboards.  
+### 📂 US-1: Como cidadão ou gestor, quero visualizar os dados recebidos pelos radares processados como níveis, gráficos e dashboards, para compreender rapidamente as informações de mobilidade urbana, reduzindo o tempo gasto na interpretação de dados brutos e otimizando a identificação de regiões mais críticas.
 
 ### 🆗 Definition of Ready (DoR)  
 - Estrutura dos dados recebidos pelos radares documentada;  
@@ -21,7 +21,7 @@
 
 ---
 
-### 📝 US-2: Como cidadão ou gestor, quero visualizar os níveis de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade.  
+### 📝 US-2: Como cidadão ou gestor, quero visualizar os níveis de mobilidade urbana (ex.: Tráfego 3), para entender rapidamente a situação da cidade e planejar deslocamentos ou ações de gestão de forma mais eficiente, economizando tempo e recursos.  
 
 ### 🆗 Definition of Ready (DoR)  
 - Indicadores a serem exibidos documentados e validados pelo PO;  
@@ -42,7 +42,7 @@
 
 ---
 
-### 📊 US-3: Como gestor, quero visualizar gráficos e dashboards detalhados dos níveis de mobilidade, para tomar decisões informadas.  
+### 📊 US-3: Como gestor, quero visualizar gráficos e dashboards detalhados dos níveis de mobilidade, para embasar decisões estratégicas com dados atualizados, reduzindo incertezas e melhorando a eficiência no planejamento urbano.  
 
 ### 🆗 Definition of Ready (DoR)  
 - Conjunto de indicadores selecionados e validados;  
@@ -63,7 +63,7 @@
 
 ---
 
-### 🔐 US-4: Como gestor, quero acessar informações sensíveis, e como cidadão, quero ver apenas dados públicos (diferenciação de acessos).  
+### 🔐 US-4: Como gestor, quero acessar informações sensíveis sobre o estado da região, e como cidadão, quero ver apenas dados relevantes sobre o transito atual, garantindo que o gestor consiga direcionar recursos para uma região crítica de maneira rápida, enquanto o cidadão vê dados que auxiliam na rota dos veículos economizando tempo e dinheiro com o transporte ao evitar regiões críticas.  
 
 ### 🆗 Definition of Ready (DoR)  
 - Perfis de usuário definidos (gestor vs cidadão);  
@@ -154,7 +154,7 @@
 
 # 3️⃣ Sprint 3  
 
-### 🗺️ US-8: Como cidadão ou gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego.  
+### 🗺️ US-8: Como cidadão ou gestor, quero visualizar mapas de calor da cidade para identificar áreas críticas de tráfego de forma intuitiva e rápida, priorizando ações corretivas e otimizando recursos de mobilidade.
 
 ### 🆗 Definition of Ready (DoR)  
 - Dados georreferenciados confirmados e acessíveis;  
@@ -175,7 +175,7 @@
 
 ---
 
-### 👤 US-9: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis.  
+### 👤 US-9: Como administrador, quero criar e gerenciar contas de gestores, para controlar o acesso a dados sensíveis, garantindo segurança da informação e reduzindo riscos operacionais e de conformidade. 
 
 ### 🆗 Definition of Ready (DoR)  
 - Perfis e permissões mapeados;  
@@ -196,7 +196,7 @@
 
 ---
 
-### 📑 US-10: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações com stakeholders.  
+### 📑 US-10: Como gestor, quero gerar relatórios em PDF/Excel a partir dos dashboards, para compartilhar informações atualizadas com stakeholders de forma prática e padronizada, economizando tempo na preparação de apresentações e comunicações.
 
 ### 🆗 Definition of Ready (DoR)  
 - Layout/modelo dos relatórios definido;  
