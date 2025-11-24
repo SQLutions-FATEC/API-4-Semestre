@@ -19,7 +19,8 @@ TABLE endereco (
     id SERIAL PRIMARY KEY,
     ende VARCHAR(150) NOT NULL UNIQUE,
     bairro VARCHAR(50),
-    regiao VARCHAR(30)
+    regiao VARCHAR(30),
+    trecho GEOMETRY(LineString, 4326)
 );
 
 
@@ -27,8 +28,7 @@ TABLE endereco (
 TABLE radar (
     id VARCHAR(9) PRIMARY KEY, -- camera_numero
     id_end INT NOT NULL, --refere-se ao id do endereço
-    latitude DECIMAL(9,6) NOT NULL,
-    longitude DECIMAL(9,6) NOT NULL,
+    localizacao GEOMETRY(Point, 4326),
     vel_reg INT NOT NULL,
     CONSTRAINT fk_radar_endereco FOREIGN KEY (id_end) REFERENCES endereco(id)
 );
@@ -47,14 +47,31 @@ TABLE leitura (
 TABLE usuario (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
-    nivel nivel_usuario NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
-    senha VARCHAR(100) NOT NULL
+    senha VARCHAR(100) NOT NULL,
+    nivel nivel_usuario NOT NULL
 );
 
-TABLE indices (
+-- Log de notificações
+ TABLE log_notificacao (
     id SERIAL PRIMARY KEY,
-    nome_indice VARCHAR(100) NOT NULL,
-    dia DATE NOT NULL,
-    valor_indice DECIMAL(10,2) NOT NULL
-)
+    id_usuario INT NOT NULL,
+    titulo VARCHAR(50) NOT NULL,
+    mensagem TEXT NOT NULL,
+    data_emissao TIMESTAMP DEFAULT NOW(),
+    data_conclusao TIMESTAMP,
+    CONSTRAINT fk_log_usuario FOREIGN KEY (id_usuario) REFERENCES usuario(id) ON DELETE CASCADE
+);
+
+-- Regiões
+TABLE regioes (
+    id SERIAL PRIMARY KEY,
+    nome_regiao VARCHAR(100) NOT NULL UNIQUE,
+    area_regiao GEOMETRY(Polygon, 4326) NOT NULL
+);
+
+-- Pontos de onibus
+TABLE pontos_onibus(
+    id BIGINT PRIMARY KEY,
+    ponto GEOMETRY(Point, 4326) NOT NULL
+);
